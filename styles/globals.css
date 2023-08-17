@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap");
+html,
+body {
+  padding: 0;
+  margin: 0;
+  direction: rtl;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "iran-yekan";
+  src: url(../public/fonts/ttf/iranyekanwebmediumfanum.ttf) format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "iran-yekan-bold";
+  src: url(../public/fonts/ttf/iranyekanwebblackfanum.ttf) format("truetype");
+  font-display: swap;
+}
